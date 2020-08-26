@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Torch Provider</string>
+    <string name="wait_for_example">To open Torch and wait for some time then close it</string>
+    <string name="repeat_example">To repeat flash, default repeat 2 times with interval time 100 ms</string>
+    <string name="flash">Flash</string>
+    <string name="torch_provider">Torch Provider</string>
+    <string name="open_torch">Open Torch</string>
+    <string name="to_open_torch_infinite">To open Torch infinite</string>
+</resources>
