@@ -70,11 +70,11 @@ Sample code (Kotlin):
 
 | Usage                                | Description                                                                           | 
 | ------------------------------------ |-------------------------------------------------------------------------------------- | 
-| `builder.repeat(boolean)`     |  To repeat the flash (default false)| 
-| `builder.repeatTimes(int)`   |  Num of repeat times (default repeats 2 times)                               | 
-| `builder.intervalTime(Long)`         | defines the interval time between flash ON and OFF (default 100 ms)                                                       | 
-| `builder.waitFor(Long)`  |  wait for some time then the flash goes OFF                                              | 
-| `builder.infinite(boolean)`  |  open flash forever (default false)                                 | 
-| `builder.showToastException(boolean)`  |  show the exception instance of (TorchException) in a toast message (default false)                                 | 
-| `builder.setTorchOnCallBack(TorchProvider.Builder.OnTorchChanged())`  |  call back of the flash light                               | 
-| `builder.start()`  |  start the flash light with pervious configuration                               |
+| `builder.repeat(boolean)`            | To repeat the flash (default false)                                                   | 
+| `builder.repeatTimes(int)`           | Num of repeat times (default repeats 2 times)                                         | 
+| `builder.intervalTime(Long)`         | defines the interval time between flash ON and OFF (default 100 ms)                   | 
+| `builder.waitFor(Long)`              | wait for some time then the flash goes OFF                                            | 
+| `builder.infinite(boolean)`          |  open flash forever (default false)                                                   | 
+| `builder.showToastException(boolean)`  |  show the exception instance of (TorchException) in a toast message (default false) | 
+| `builder.setTorchOnCallBack(TorchProvider.Builder.OnTorchChanged())`  |  call back of the flash light                        | 
+| `builder.start()`                    |  start the flash light with pervious configuration                                    |
